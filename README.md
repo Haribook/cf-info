@@ -30,6 +30,7 @@ cf stop <appName>
 cf bind-service <appName> SERVICE_INSTANCE
   
 cf set-env APP_NAME ENV_VAR_NAME ENV_VAR_VALUE
+
 cf set-env  APP_NAME JAVA_OPTS -Dlsi.function=ps
 cf restage APP_NAME
   
