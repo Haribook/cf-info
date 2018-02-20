@@ -4,17 +4,29 @@ It uses Cloud Foundry Bosh to operate the underlying infrastructure from IaaS pr
 (e.g., VMware, Amazon AWS, OpenStack).
 
 cf login --skip-ssl-validation -a https://api.run.pivotal.io -u <USER>
+  
 cf push <appname> -b <buildPack> -m 2G -t 240 -p <appPath>
+  
 cf restage <appname>
+  
 cf apps
+
 cf orgs
+
 cf spaces
+
 cf logs <appName>
+  
 cf logs <appName> --instance INSTANCE
+  
 cf scale <appName> -i <NoOfInstances>
+  
 cf scale <appName> -m <memoryInGig>
+  
 cf start <appName>
+  
 cf stop <appName>
+  
 docs.cloudfoundry.org/deploying/ec2/aws_steps.html
 
 
