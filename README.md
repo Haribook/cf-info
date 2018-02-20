@@ -26,6 +26,8 @@ cf scale <appName> -m <memoryInGig>
 cf start <appName>
   
 cf stop <appName>
+
+cf bind-service <appName> SERVICE_INSTANCE
   
 docs.cloudfoundry.org/deploying/ec2/aws_steps.html
 
