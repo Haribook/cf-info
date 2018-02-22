@@ -34,6 +34,10 @@ cf set-env APP_NAME ENV_VAR_NAME ENV_VAR_VALUE
 cf set-env  APP_NAME JAVA_OPTS -Dlsi.function=ps
 
 cf restage APP_NAME
+
+cf restart appName
+
+cf buildpacks command lists the buildpacks that you can refer to by name in a manifest or a command line option.
   
 docs.cloudfoundry.org/deploying/ec2/aws_steps.html
 
