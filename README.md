@@ -2,6 +2,8 @@
 
 https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html
 
+https://docs.cloudfoundry.org/devguide/deploy-apps/blue-green.html
+
 The Cloud Foundry platform is abstracted as a set of large-scale distributed services.
 It uses Cloud Foundry Bosh to operate the underlying infrastructure from IaaS providers 
 (e.g., VMware, Amazon AWS, OpenStack).
